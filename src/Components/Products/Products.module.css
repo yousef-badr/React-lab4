@@ -1,0 +1,11 @@
+.productDesc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 20px;
+  margin-bottom: 70px;
+}
+.productDesc:hover {
+  overflow: visible;
+  white-space: normal;
+}
